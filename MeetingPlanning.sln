@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{38B2ACED-6B17-439D-9919-BB1CB138C0A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingPlanning.WebAPI", "MeetingPlanning.WebAPI\MeetingPlanning.WebAPI.csproj", "{6A542B9B-67CA-47B9-B45B-852235B73E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingPlanning.Application", "MeetingPlanning.Application\MeetingPlanning.Application.csproj", "{89480A4A-461E-4627-9283-4358FA329F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingPlanning.Domain", "MeetingPlanning.Domain\MeetingPlanning.Domain.csproj", "{6B4C574C-7BC6-4A69-B921-0E9B64A4CFC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingPlanning.Infrastructure", "MeetingPlanning.Infrastructure\MeetingPlanning.Infrastructure.csproj", "{A2F0048A-110D-4853-AF84-3BF379485349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A542B9B-67CA-47B9-B45B-852235B73E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A542B9B-67CA-47B9-B45B-852235B73E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A542B9B-67CA-47B9-B45B-852235B73E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A542B9B-67CA-47B9-B45B-852235B73E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89480A4A-461E-4627-9283-4358FA329F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89480A4A-461E-4627-9283-4358FA329F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89480A4A-461E-4627-9283-4358FA329F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89480A4A-461E-4627-9283-4358FA329F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4C574C-7BC6-4A69-B921-0E9B64A4CFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4C574C-7BC6-4A69-B921-0E9B64A4CFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4C574C-7BC6-4A69-B921-0E9B64A4CFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4C574C-7BC6-4A69-B921-0E9B64A4CFC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F0048A-110D-4853-AF84-3BF379485349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F0048A-110D-4853-AF84-3BF379485349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F0048A-110D-4853-AF84-3BF379485349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F0048A-110D-4853-AF84-3BF379485349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A542B9B-67CA-47B9-B45B-852235B73E90} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{89480A4A-461E-4627-9283-4358FA329F33} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6B4C574C-7BC6-4A69-B921-0E9B64A4CFC3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A2F0048A-110D-4853-AF84-3BF379485349} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BABEED82-4A22-4FB0-85F1-AB4C81706AF0}
+	EndGlobalSection
+EndGlobal
